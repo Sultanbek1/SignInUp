@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToNext(View view) {
-        Intent abc = new Intent(MainActivity.this, LoginActivity.class);
-        startActivity(abc);
+        Intent dsp = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(dsp);
     }
 }
