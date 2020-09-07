@@ -56,7 +56,50 @@
             android:inputType="text"
             android:textColorHint="@color/fullwhite"
             android:elevation="5dp"
-            tools:ignore="Autofill,LabelFor,TextFields" />
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="@string/email"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/fullwhite"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="@string/password"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/fullwhite"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:layout_marginBottom="2dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:id="@+id/joinus"
+            android:text="@string/joinus"
+            android:textColor="@color/whitecolor"
+            android:textAllCaps="false"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp"
+            android:onClick="goToNext"
+            android:background="@drawable/joinbtn"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/termsAndConditions"
+            android:textColor="@color/fullwhite"
+            android:layout_marginTop="25dp"/>
 
     </LinearLayout>
 </LinearLayout>
